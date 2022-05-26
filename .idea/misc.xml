@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/MKausar/AndroidStudioProjects/UASpbm/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2215" />
+        <entry key="..\:/Users/MKausar/AndroidStudioProjects/UASpbm/app/src/main/res/layout/Login.xml" value="0.264" />
+        <entry key="..\:/Users/MKausar/AndroidStudioProjects/UASpbm/app/src/main/res/layout/activity_catatan.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/MKausar/AndroidStudioProjects/UASpbm/app/src/main/res/layout/activity_daftar.xml" value="0.1" />
+        <entry key="..\:/Users/MKausar/AndroidStudioProjects/UASpbm/app/src/main/res/layout/activity_getstarted.xml" value="0.2" />
+        <entry key="..\:/Users/MKausar/AndroidStudioProjects/UASpbm/app/src/main/res/layout/activity_jadwal.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/MKausar/AndroidStudioProjects/UASpbm/app/src/main/res/layout/activity_kesehatan.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/MKausar/AndroidStudioProjects/UASpbm/app/src/main/res/layout/activity_kursus.xml" value="0.264" />
+        <entry key="..\:/Users/MKausar/AndroidStudioProjects/UASpbm/app/src/main/res/layout/activity_login.xml" value="0.264" />
+        <entry key="..\:/Users/MKausar/AndroidStudioProjects/UASpbm/app/src/main/res/layout/activity_main.xml" value="0.22735507246376813" />
+        <entry key="..\:/Users/MKausar/AndroidStudioProjects/UASpbm/app/src/main/res/layout/activity_pencapaian.xml" value="0.264" />
+        <entry key="..\:/Users/MKausar/AndroidStudioProjects/UASpbm/app/src/main/res/layout/activity_profil.xml" value="0.2" />
+        <entry key="..\:/Users/MKausar/AndroidStudioProjects/UASpbm/app/src/main/res/layout/activity_riwayat.xml" value="0.4" />
+        <entry key="..\:/Users/MKausar/AndroidStudioProjects/UASpbm/app/src/main/res/layout/activity_tugas.xml" value="0.2" />
+        <entry key="..\:/Users/MKausar/AndroidStudioProjects/UASpbm/app/src/main/res/layout/getstarted.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/MKausar/AndroidStudioProjects/UASpbm/app/src/main/res/layout/kursus.xml" value="0.24010416666666667" />
+        <entry key="..\:/Users/MKausar/AndroidStudioProjects/UASpbm/app/src/main/res/layout/login.xml" value="0.264" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EEEDDE"
+    android:orientation="vertical"
+    tools:context=".DaftarActivity">
+
+    <TextView
+        android:id="@+id/selamat_dat"
+        android:layout_width="195dp"
+        android:layout_height="53dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="95dp"
+        android:layout_marginTop="242dp"
+        android:fontFamily="@font/poppins_semibold"
+        android:gravity="center_horizontal|top"
+        android:text="@string/selamat_dat"
+        android:textColor="#000000"
+        android:textSize="18sp" />
+
+    <ImageView
+        android:id="@+id/undraw_welc"
+        android:layout_width="223dp"
+        android:layout_height="194dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="88dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/welcome"
+        android:clipToOutline="true" />
+
+    <TextView
+        android:id="@+id/silahkan_is"
+        android:layout_width="192.04dp"
+        android:layout_height="33.8dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="102dp"
+        android:layout_marginTop="270dp"
+        android:gravity="center_horizontal|top"
+        android:text="@string/silahkan_is"
+        android:textColor="@color/black"
+        android:fontFamily="@font/poppins_regular"
+        android:textSize="10sp" />
+
+    <EditText
+        android:id="@+id/inputnama"
+        android:layout_width="319dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="43dp"
+        android:layout_marginTop="335dp"
+        android:background="@drawable/text"
+        android:fontFamily="@font/poppins_regular"
+        android:hint="Masukkan nama lengkap"
+        android:inputType="textPersonName|textCapWords"
+        android:paddingLeft="20dp"
+        android:textColorHint="@color/black"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/inputemail"
+        android:layout_width="319dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="41dp"
+        android:layout_marginTop="415dp"
+        android:background="@drawable/text"
+        android:fontFamily="@font/poppins_regular"
+        android:inputType="textEmailAddress"
+        android:paddingLeft="20dp"
+        android:hint="Masukkan email"
+        android:textColorHint="@color/black"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/inputpassword"
+        android:layout_width="319dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="41dp"
+        android:layout_marginTop="491dp"
+        android:background="@drawable/text"
+        android:fontFamily="@font/poppins_regular"
+        android:inputType="textPassword"
+        android:hint="Masukkan password"
+        android:paddingLeft="20dp"
+        android:textColorHint="@color/black"
+        android:textSize="14sp" />
+
+    <ImageButton
+        android:id="@+id/btn_daftar"
+        android:layout_width="279dp"
+        android:layout_height="62dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="56dp"
+        android:layout_marginTop="622dp"
+        android:background="@drawable/buttondaftar" />
+
+</RelativeLayout>
+

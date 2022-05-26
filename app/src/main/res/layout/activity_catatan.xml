@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EEEDDE"
+    tools:context=".CatatanActivity">
+
+   <ScrollView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+
+       <RelativeLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content">
+
+           <EditText
+               android:id="@+id/editText3"
+               android:layout_width="142dp"
+               android:layout_height="150dp"
+               android:layout_alignParentLeft="true"
+               android:layout_alignParentTop="true"
+               android:layout_marginLeft="37dp"
+               android:layout_marginTop="477dp"
+               android:background="@drawable/catatan" />
+
+           <EditText
+               android:id="@+id/editText4"
+               android:layout_width="142dp"
+               android:layout_height="150dp"
+               android:layout_alignParentLeft="true"
+               android:layout_alignParentTop="true"
+               android:layout_marginLeft="210dp"
+               android:layout_marginTop="479dp"
+               android:background="@drawable/catatan" />
+
+           <TextView
+               android:id="@+id/catatan"
+               android:layout_width="193.74dp"
+               android:layout_height="31.19dp"
+               android:layout_alignParentLeft="true"
+               android:layout_marginLeft="14.03dp"
+               android:layout_alignParentTop="true"
+               android:layout_marginTop="52dp"
+               android:text="Catatan"
+               android:textSize="24sp"
+               android:fontFamily="@font/poppins_semibold"
+               android:textColor="@color/black"
+               android:gravity="top" />
+
+           <EditText
+               android:layout_width="142dp"
+               android:layout_height="150dp"
+               android:layout_alignParentLeft="true"
+               android:layout_alignParentTop="true"
+               android:layout_marginLeft="35dp"
+               android:layout_marginTop="140dp"
+               android:background="@drawable/catatan" />
+
+           <EditText
+               android:id="@+id/editText"
+               android:layout_width="142dp"
+               android:layout_height="150dp"
+               android:layout_alignParentLeft="true"
+               android:layout_alignParentTop="true"
+               android:layout_marginLeft="34dp"
+               android:layout_marginTop="308dp"
+               android:background="@drawable/catatan" />
+
+           <EditText
+               android:id="@+id/editText2"
+               android:layout_width="142dp"
+               android:layout_height="150dp"
+               android:layout_alignParentLeft="true"
+               android:layout_alignParentTop="true"
+               android:layout_marginLeft="208dp"
+               android:layout_marginTop="309dp"
+               android:background="@drawable/catatan" />
+
+           <EditText
+               android:layout_width="142dp"
+               android:layout_height="150dp"
+               android:layout_alignParentLeft="true"
+               android:layout_marginLeft="203dp"
+               android:layout_alignParentTop="true"
+               android:layout_marginTop="140dp"
+               android:background="@drawable/catatan"
+               />
+
+       </RelativeLayout>
+
+   </ScrollView>
+
+    <View
+        android:id="@+id/rectangle_9"
+        android:layout_width="417dp"
+        android:layout_height="124dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="1dp"
+        android:layout_marginTop="644dp"
+        android:background="@drawable/background_bawah" />
+
+    <ImageButton
+        android:id="@+id/profile"
+        android:layout_width="55dp"
+        android:layout_height="54dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="34dp"
+        android:layout_marginTop="650dp"
+        android:background="@drawable/profil_icon"
+        android:clipToOutline="true" />
+
+    <TextView
+        android:layout_width="90dp"
+        android:layout_height="33dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="696dp"
+        android:fontFamily="@font/poppins_medium"
+        android:gravity="center_horizontal|top"
+        android:text="profil"
+        android:textSize="16sp"/>
+
+    <ImageButton
+        android:id="@+id/book"
+        android:layout_width="55dp"
+        android:layout_height="54dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="181dp"
+        android:layout_marginTop="650dp"
+        android:background="@drawable/book_icon"
+        android:clipToOutline="true" />
+
+    <TextView
+        android:layout_width="90dp"
+        android:layout_height="33dp"
+        android:layout_marginLeft="165dp"
+        android:layout_marginTop="696dp"
+        android:fontFamily="@font/poppins_medium"
+        android:gravity="center_horizontal|top"
+        android:text="kursus"
+        android:textSize="16sp" />
+
+    <ImageButton
+        android:id="@+id/history"
+        android:layout_width="52dp"
+        android:layout_height="45dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="309dp"
+        android:layout_marginTop="650dp"
+        android:background="@drawable/riwayat_icon"
+        android:clipToOutline="true" />
+
+    <TextView
+        android:layout_width="90dp"
+        android:layout_height="33dp"
+        android:layout_marginLeft="290dp"
+        android:layout_marginTop="696dp"
+        android:fontFamily="@font/poppins_medium"
+        android:gravity="center_horizontal|top"
+        android:text="riwayat"
+        android:textSize="16sp" />
+
+</RelativeLayout>

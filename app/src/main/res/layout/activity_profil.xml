@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context=".ProfilActivity">
+    
+    <ImageView
+        android:id="@+id/fotoprofil"
+        android:layout_width="108dp"
+        android:layout_height="105dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="51dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="59dp"
+        android:background="@drawable/profil" />
+
+    <TextView
+        android:id="@+id/budi_setiaw"
+        android:layout_width="193.74dp"
+        android:layout_height="31.19dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="178.03dp"
+        android:layout_marginTop="80dp"
+        android:text="Nama lengkap"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:fontFamily="@font/poppins_semibold"
+        android:gravity="top"/>
+
+    <TextView
+        android:id="@+id/mahasiswa"
+        android:layout_width="134.99dp"
+        android:layout_height="23.86dp"
+        android:layout_marginLeft="179.02dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="111dp"
+        android:text="Pekerjaan"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        android:fontFamily="@font/poppins_regular"
+        android:gravity="top" />
+
+    <TextView
+        android:id="@+id/status"
+        android:layout_width="160.97dp"
+        android:layout_height="18.97dp"
+        android:layout_marginLeft="-9.98dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="211dp"
+        android:text="Status"
+        android:textColor="@color/black"
+        android:textSize="13sp"
+        android:fontFamily="@font/poppins_regular"
+        android:gravity="center_horizontal|top"/>
+
+    <View
+        android:id="@+id/statusview"
+        android:layout_width="155dp"
+        android:layout_height="34dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="46dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="243dp"
+        android:background="@drawable/statusicon" />
+
+    <TextView
+        android:id="@+id/dashboard"
+        android:layout_width="160.97dp"
+        android:layout_height="18.97dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="2.02dp"
+        android:layout_marginTop="301dp"
+        android:fontFamily="@font/poppins_regular"
+        android:gravity="center_horizontal|top"
+        android:text="Dashboard"
+        android:textColor="@color/black"
+        android:textSize="13sp" />
+
+    <View
+        android:id="@+id/rectangle_9"
+        android:layout_width="417dp"
+        android:layout_height="124dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="1dp"
+        android:layout_marginTop="644dp"
+        android:background="@drawable/background_bawah" />
+
+    <ImageButton
+        android:id="@+id/biodatasaya"
+        android:layout_width="317dp"
+        android:layout_height="38dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="44dp"
+        android:layout_marginTop="328dp"
+        android:background="@drawable/biodata" />
+
+    <ImageButton
+        android:id="@+id/prestasisaya"
+        android:layout_width="317dp"
+        android:layout_height="38dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="44dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="384dp"
+        android:background="@drawable/prestasisaya" />
+
+    <ImageButton
+        android:id="@+id/rectangle_1"
+        android:layout_width="317dp"
+        android:layout_height="38dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="44dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="440dp"
+        android:background="@drawable/daftartugas" />
+
+    <ImageButton
+        android:id="@+id/log_out"
+        android:layout_width="80dp"
+        android:layout_height="22dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="287dp"
+        android:layout_marginTop="529dp"
+        android:background="@drawable/logout"
+        android:gravity="top" />
+
+    <ImageButton
+        android:id="@+id/gg_profile"
+        android:layout_width="55dp"
+        android:layout_height="54dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="34dp"
+        android:layout_marginTop="650dp"
+        android:background="@drawable/profil_icon"
+        android:clipToOutline="true" />
+
+    <TextView
+        android:layout_width="90dp"
+        android:layout_height="33dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="696dp"
+        android:fontFamily="@font/poppins_medium"
+        android:gravity="center_horizontal|top"
+        android:text="profil"
+        android:textSize="16sp"/>
+
+    <ImageButton
+        android:id="@+id/book"
+        android:layout_width="55dp"
+        android:layout_height="54dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="181dp"
+        android:layout_marginTop="650dp"
+        android:background="@drawable/book_icon"
+        android:clipToOutline="true" />
+
+    <TextView
+        android:layout_width="90dp"
+        android:layout_height="33dp"
+        android:layout_marginLeft="165dp"
+        android:layout_marginTop="696dp"
+        android:fontFamily="@font/poppins_medium"
+        android:gravity="center_horizontal|top"
+        android:text="kursus"
+        android:textSize="16sp" />
+
+    <ImageButton
+        android:id="@+id/riwayat"
+        android:layout_width="52dp"
+        android:layout_height="45dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="309dp"
+        android:layout_marginTop="650dp"
+        android:background="@drawable/riwayat_icon"
+        android:clipToOutline="true" />
+
+    <TextView
+        android:layout_width="90dp"
+        android:layout_height="33dp"
+        android:layout_marginLeft="290dp"
+        android:layout_marginTop="696dp"
+        android:fontFamily="@font/poppins_medium"
+        android:gravity="center_horizontal|top"
+        android:text="riwayat"
+        android:textSize="16sp" />
+
+</RelativeLayout>
